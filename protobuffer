@@ -1,0 +1,5 @@
+Protocol Buffers (protobuf) is a language-agnostic, platform-neutral data serialization format developed by Google. It is often used in gRPC as the default data interchange format for defining the structure and communication between different services.
+
+In gRPC, Protocol Buffers are used to define the service interface and the messages exchanged between the client and server. A .proto file is used to define the data structures (messages) and the services (RPC methods) that can be used in the gRPC communication. The .proto file acts as a contract that both the client and server agree upon.
+
+The protobuf compiler (protoc) generates code in various programming languages based on the .proto file, which allows the client and server to serialize and deserialize the structured data in a consistent and efficient manner. This ensures that the client and server can communicate seamlessly using the defined messages and services.
